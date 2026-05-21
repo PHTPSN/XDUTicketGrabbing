@@ -6,6 +6,12 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/PHTPSN/XDUTicketGrabbing)](https://github.com/PHTPSN/XDUTicketGrabbing/releases)
 
+> ⚠️ 当前登录功能存在已知问题
+>
+> 由于 IDS 登录 / 验证码流程疑似发生变化，当前版本可能会出现输入验证码后仍提示登录失败的问题。
+>
+> 详情与修复进展请见：[Issue #1](https://github.com/PHTPSN/XDUTicketGrabbing/issues/1)
+
 **XDU 体育馆自动抢票助手 | Automated Ticket Grabber for Xidian University**
 
 一个为西安电子科技大学学生开发的自动抢票工具，支持定时抢票、自动登录、微信通知和在线验证码平台。
