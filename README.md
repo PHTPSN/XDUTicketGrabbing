@@ -6,11 +6,17 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/PHTPSN/XDUTicketGrabbing)](https://github.com/PHTPSN/XDUTicketGrabbing/releases)
 
-> ⚠️ 当前登录功能存在已知问题
+> ⚠️ 当前验证码平台的登录状态提示可能不准确
 >
-> 由于 IDS 登录 / 验证码流程疑似发生变化，当前版本可能会出现输入验证码后仍提示登录失败的问题。
+> 近期学校 IDS / 体育馆系统登录流程疑似存在响应延迟或状态返回变化。
+> 因此，验证码平台在提交验证码后可能仍显示“登录失败”，但这并不一定代表实际登录失败。
 >
-> 详情与修复进展请见：[Issue #1](https://github.com/PHTPSN/XDUTicketGrabbing/issues/1)
+> 根据近期测试，即使页面提示登录失败，后续抢票流程仍可能正常执行并成功预约。
+>
+> 当前版本的“登录成功判断”可能存在误判，建议以最终抢票结果或体育馆系统订单状态为准。
+> 如果抢票失败，请再检查账号密码、验证码、部署日志以及是否能通过浏览器正常登录 IDS。
+>
+> 相关讨论见 [Issue #1](https://github.com/PHTPSN/XDUTicketGrabbing/issues/1)
 
 **XDU 体育馆自动抢票助手 | Automated Ticket Grabber for Xidian University**
 
